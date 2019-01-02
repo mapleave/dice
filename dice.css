@@ -1,0 +1,57 @@
+#header {height:100px; padding:1em; text-align: center;}
+#mid1 {float: left; width: 30%; height: 400px; text-align: center;}
+#mid2 {float: left; width: 40%; height: 400px; background: white; text-align: center;}
+#footer {clear:both; height:75px; background-color:#f9c81e; color:#262673; padding:1em; text-align: center;}
+
+@media screen and (max-width: 600px){#header{height: auto;font-size:50%;}}
+@media screen and (max-width: 600px){#mid1{width: 30%;font-size:50%;}}
+@media screen and (max-width: 600px){#mid2{width: 40%;font-size:50%;}}
+@media screen and (max-width: 600px){#footer{width: 100%;font-size:50%;}}
+@media screen and (max-width: 900px){#header{height: auto;font-size:75%;}}
+@media screen and (max-width: 900px){#mid1{width: 30%;font-size:75%;}}
+@media screen and (max-width: 900px){#mid2{width: 40%;font-size:75%;}}
+@media screen and (max-width: 900px){#footer{width: 100%;font-size:75%;}}
+* {box-sizing: border-box;}
+
+body {
+	background-image:url("https://wallpaperbrowse.com/media/images/animation-of-mathematics-math-numerical-theory-and-mathematical-sign-and-symbol-with-graph-and-equation-icon-in-doodle-handwriting-for-education-introduction-in-blackboard-background-in-1920x1080-hd_efgymnqcx__F0013.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+h1 {
+	color:black;
+	text-align:center;
+	font-size:2.25em;
+	text-shadow: 2px 2px 5px blue;
+}
+
+h2 {
+	font-size:1.5em;
+}
+
+h3 {
+	font-size:2.1px;
+}
+
+p {
+	font-family:"Times New Roman";
+	font-size:1.80em;
+	line-height:2.5;	
+	border-top-style:dotted;
+	border-right-style:dotted;
+	border-bottom-style:dotted;
+	border-left-style:dotted;
+	border-color:#5200cc;
+	border-width:5px;
+	border-radius:12px;
+}
+
+a {
+	font-size:1.5em;
+	line-height:1.5;
+}
+
+img {
+	max-width:100%;
+	height:auto;
+}
