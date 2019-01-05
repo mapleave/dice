@@ -1,8 +1,8 @@
 #header {height:100px; padding:1em; text-align: center;}
-#mid1 {float: left; width: 30%; height: 400px; text-align: center;}
-#mid2 {float: left; width: 40%; height: 400px; background: white; text-align: center;}
+#mid1 {float: left; width: 29%; height: 400px; text-align: center;}
+#mid2 {float: left; height: 400px; text-align: center;}
 #footer {clear:both; height:75px; background-color:#f9c81e; color:#262673; padding:1em; text-align: center;}
-
+#piechart {text-align: center;}
 @media screen and (max-width: 600px){#header{height: auto;font-size:50%;}}
 @media screen and (max-width: 600px){#mid1{width: 30%;font-size:50%;}}
 @media screen and (max-width: 600px){#mid2{width: 40%;font-size:50%;}}
